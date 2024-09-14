@@ -1,0 +1,72 @@
+$primary : #ede8ef
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Kode+Mono:wght@400..700&family=Noto+Sans:wght@500&display=swap')
+@import '../node_modules/bootstrap/scss/bootstrap'
+
+body
+    background-color: #ede8ef
+    font-family: "Kode Mono", monospace
+    
+
+.fontHead
+    font-family: "Kode Mono", monospace
+    font-optical-sizing: auto
+    font-weight: 500
+    font-style: normal
+    font-size: larger
+.form-control:focus
+        border-color: #e77fd6
+        box-shadow: 0 0 0 0.25rem #ebd6f4
+
+.dropdown-item:active 
+    color: #000
+    text-decoration: underline
+
+.carousel    
+    position: relative
+    max-width: 100%
+    overflow-y: hidden
+    display: flex
+    justify-content: center
+    align-items: center
+    height: 60vh
+
+.carousel__btn
+    top: 50%
+    background-color: rgba(106, 105, 105, 0.057)
+    color: white
+    font-size: 1.5rem
+    border: none
+    padding: 1rem
+    cursor: pointer
+    z-index: 1
+    transition: background-color 0.3s
+    &:hover
+        background-color: rgba(0, 0, 0, 0.5)
+
+.carousel__btn--prev
+    transform: translateX(100%)
+.carousel__btn--next 
+    transform: translateX(-100%)
+
+.carousel__title
+    color: #2b14dc
+    transform: translateY(-100%)
+    text-align: center
+    background-color: rgb(233 232 232 / 85%)
+
+.logoHead
+    text-align: center
+    font-family: "Kode Mono", monospace
+    font-optical-sizing: auto
+    font-weight: 500
+    font-style: normal
+    font-size: larger
+
+.strongPrice
+    font-size: 1.2rem
+    color: green
+    line-height: 1.3rem
+    &:hover
+        font-size: 1.3rem
+        
